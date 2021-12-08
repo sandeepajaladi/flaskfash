@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block body %}
+  <h4>My first flask flash message</h4>
+    <h5>Introduction to Flask Flash messages</h5>
+    <p>I am Sandeepa Jaladi . This is my first semester and my first course in Web development. The purpose of this page is to learn to use github and create from command line :  </p>
+			 <p>I am Sandeepa Jaladi . This is my first Flask flash message . The purpose of this page is to learn to Flask  </p>
+			<p> Here are the Linux commands
+			<ol>
+				<li>Flask provides a really simple way to give feedback to a user with the flashing system.  </li>
+					<li>The flashing system basically makes it possible to record a message at the end of a request and access it next request and only next request.</li>
+						<li>This is usually combined with a layout template that does this.</li>
+							<li>flashing messages that are too large for session cookies causes message flashing to fail silently.</li>
+
+            </ol>p>
+  <p>Enter your credentials and click on <a href="{{ url_for('login') }}">login</a>
+{% endblock %}
